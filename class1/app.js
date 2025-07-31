@@ -1,4 +1,4 @@
-alert('Welcome \nUmra!');
+alert('Welcome Umra!');
 // window.alert("10");
 var firstName; //Declaration
 firstName = "Umra" //Initialization
