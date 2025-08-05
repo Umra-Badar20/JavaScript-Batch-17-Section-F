@@ -59,11 +59,26 @@
 // }
 
 
-var capital = prompt("Enter the capital of Pakistan")
-var ans = "Islamabad";
-var score = 0
-if(capital=== ans){
-    score++
-    alert("Correct")
-    console.log(score); 
+// var capital = prompt("Enter the capital of Pakistan")
+// var ans = "Islamabad";
+// var score = 0
+// if(capital === ans){
+//     score++
+//     alert("Correct")
+//     console.log(score); 
+// }
+
+
+// var userCountry = prompt("Enetr your Country name")
+// var qualification = prompt("Enetr your qualification")
+// if(userCountry !== "India"){
+//     console.log("You are eligible");
+// }
+// if(qualification !== "Matric"){
+//      console.log("Your education is perfect");
+     
+// }
+var age =21
+if(age<=20){
+    alert("you are eligible")
 }
