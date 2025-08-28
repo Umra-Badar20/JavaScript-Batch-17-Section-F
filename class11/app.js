@@ -13,18 +13,22 @@ for (var i = 0; i < 5; i++) { //1
 //1,1
 //1,2
 var arr = [
-    ["Umra", "Badar", "SMIT"],
-    ["Samen", "Arshad"],
-    ["Rida", "Abid"]
+    [["Umra"], ["Badar"], ["SMIT"]],
+    [["Samen"], ["Arshad"]],
+    [["Rida"], ["Abid"]]
 ]
-for(var i =0; i<arr.length;i++){//2
-    // console.log(arr[i]);  
-    for(var j=0; j<arr[i].length; j++){//1
-        console.log(arr[i][j]);
-        
+for (var i = 0; i < arr.length; i++) {//2
+
+    for (var j = 0; j < arr[i].length; j++) {//1
+      
+        for(var k =0; k<arr[i][j].length; k++){
+            console.log(arr[i][j][k]);
+
+        }
+
     }
 }
-// arr[0] =["Umra", "Badar"] 
+// arr[0] =["Umra", "Badar"]
 // arr[0][0]= "Umra"
 // arr[0][1] ="Badar"
 
