@@ -1,9 +1,9 @@
-// for (var i = 0; i < 5; i++) { //1
-//     console.log("Entering inner loop " + i + " Times");
-//     for (var j = 0; j < 10; j++) {//2
-//         console.log(i, j);
-//     }
-// }
+for (var i = 0; i < 5; i++) { //1
+    console.log("Entering inner loop " + i + " Times");
+    for (var j = 0; j < 10; j++) {//2
+        console.log(i, j);
+    }
+}
 //0,0
 //0,1
 //0,2
@@ -24,10 +24,10 @@ for(var i =0; i<arr.length;i++){//2
         
     }
 }
-arr[0] =["Umra", "Badar"] 
-arr[0][0]= "Umra"
-arr[0][1] ="Badar"
+// arr[0] =["Umra", "Badar"] 
+// arr[0][0]= "Umra"
+// arr[0][1] ="Badar"
 
-arr[1] = ["Samen", "Arshad"]
-arr[1][0]= "Samen"
-arr[1][1]= "Arshad"
+// arr[1] = ["Samen", "Arshad"]
+// arr[1][0]= "Samen"
+// arr[1][1]= "Arshad"
