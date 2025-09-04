@@ -32,7 +32,7 @@ const jsAnswers = [
 ];
 var score = 0
 for (var i = 0; i < jsQuestions.length; i++){
-    var userAns = prompt(jsQuestions[i])
+    var userAns = prompt(i+1+") "+ jsQuestions[i])
     if (userAns && userAns.toLowerCase() === jsAnswers[i]) {
         alert("Correct ans")
         score++
