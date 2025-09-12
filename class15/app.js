@@ -1,8 +1,8 @@
-// var sentence = prompt("Enter a sentence:")
-// var result = "";
-// var makeUpper = true;
+// var sentence = prompt("Enter a sentence:")// i am student of smit
+// var result = ""; //"I Am"
+// var makeUpper = true; //false true,false
 
-// for(var i=0; i<sentence.length;i++){
+// for(var i=0; i<sentence.length;i++){ //1 2 3
 //     if(makeUpper){
 //         result += sentence[i].toUpperCase();
 //         makeUpper=false; 
@@ -20,14 +20,13 @@
 // var sentence = prompt("Enter a sentence:")// hello world
 // var words = sentence.split(" ") // ["hello", "world"]
 // console.log(words);
-// var titleCaseWords = []
-
+// var titleCaseWords = [] //["Hello" , "World"]
 // for (var i = 0; i < words.length; i++) {
 
-//     var firstChar = words[i].slice(0, 1) //h
-//     var otherChar = words[i].slice(1) //ello
-//     firstChar = firstChar.toUpperCase()  //H
-//     otherChar = otherChar.toLowerCase() //ello
+//     var firstChar = words[i].slice(0, 1).toUpperCase() //h
+//     var otherChar = words[i].slice(1).toLowerCase()  //ello
+//     // firstChar = firstChar.toUpperCase()  //H
+//     // otherChar = otherChar.toLowerCase() //ello
 //     titleCaseWords.push(firstChar + otherChar)
 
 // }
