@@ -49,67 +49,67 @@
 //     isSecondNumber = false;
 // }/// muheera's code
 
-// var firstnum 
-// var secondnum 
-// var firstnumarray = []
-// var secondnumarray = []
-// var operator 
-// var result = 0
-// var Display = document.getElementById("display")
-// var step = 0
+var firstnum 
+var secondnum 
+var firstnumarray = []
+var secondnumarray = []
+var operator 
+var result = 0
+var Display = document.getElementById("display")
+var step = 0
 
-// function getNumber(num){
-//     // Display.value = num
-//     if(step === 0 || step ===1){
-//         firstnumarray.push(num);
-//         firstnum = Number(firstnumarray.join(""));
-//         step = 1
-//         Display.value = firstnum
-//     }else if(step ===2){
-//         secondnumarray.push(num);
-//         secondnum = Number(secondnumarray.join(""));
-//         Display.value = secondnum
-//     }
-// }
+function getNumber(num){
+    // Display.value = num
+    if(step === 0 || step ===1){
+        firstnumarray.push(num);
+        firstnum = Number(firstnumarray.join(""));
+        step = 1
+        Display.value = firstnum
+    }else if(step ===2){
+        secondnumarray.push(num);
+        secondnum = Number(secondnumarray.join(""));
+        Display.value = secondnum
+    }
+}
 
-// function getOperator(op){
-//     step =2
-//     secondnumarray = [];
-//     operator = op
-// }
+function getOperator(op){
+    step =2
+    secondnumarray = [];
+    operator = op
+}
 
-// function calculateEquals(){
-//     if(secondnumarray.length === 0){
-//         secondnum = Number(Display.value) || 0;
-//     }
+function calculateEquals(){
+    if(secondnumarray.length === 0){
+        secondnum = Number(Display.value) || 0;
+    }
 
-//     if(operator === "+"){
-//         result = firstnum + secondnum
-//         Display.value = result
-//     }else if(operator === "-"){
-//         result = firstnum - secondnum
-//         Display.value = result
-//     }else if(operator === "/"){
-//         result = firstnum / secondnum
-//         Display.value = result
-//     }else if(operator === "*"){
-//         result = firstnum * secondnum
-//         Display.value = result
-//     }
-//     secondnumarray = []
-//     firstnum = result
-//     step = 1 
+    if(operator === "+"){
+        result = firstnum + secondnum
+        Display.value = result
+    }else if(operator === "-"){
+        result = firstnum - secondnum
+        Display.value = result
+    }else if(operator === "/"){
+        result = firstnum / secondnum
+        Display.value = result
+    }else if(operator === "*"){
+        result = firstnum * secondnum
+        Display.value = result
+    }
+    secondnumarray = []
+    firstnum = result
+    step = 1 
 
-// }
-// function clearDisplay(){
-//     firstnum = null;
-//     secondnum = null ;
-//     firstnumarray = [];
-//     secondnumarray = [];
-//     operator = null ;
-//     step = 0;
-//     Display.value = 0 ;
-// }
+}
+function clearDisplay(){
+    firstnum = null;
+    secondnum = null ;
+    firstnumarray = [];
+    secondnumarray = [];
+    operator = null ;
+    step = 0;
+    Display.value = 0 ;
+}
 
 var day = prompt("Enter the day of week")
 switch(day){
