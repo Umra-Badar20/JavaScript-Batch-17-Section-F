@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-image: url('images/vvTgHde.gif');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.char{
+     position: absolute;
+     bottom: 10px;
+     height: 150px;
+     
+     object-fit: contain;
+}
+#char1{
+    left: 10px;
+}
+
+#char2{
+    right: 10px ;
+    height: 300px;
+    transform: scaleX(-1);
+}
