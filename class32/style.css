@@ -1,0 +1,11 @@
+.para{
+    background-color: bisque;
+    margin: 0 auto;
+    width: 500px;
+}
+.zoom{
+    font-size: 30px;
+}
+.hidden{
+    display: none;
+}
