@@ -1,0 +1,23 @@
+body{
+    background-color: #fce4ec;
+   
+}
+.card img{
+    height: 250px;
+    object-fit: contain;
+}
+.card{
+    height: 500px;
+    width: 350px;
+    
+}
+.card-text{
+    overflow-y: hidden;
+}
+.navbar{
+    background-color: #f48fb1;
+}
+.container-fluid{
+     margin: 0;
+    padding: 0;
+}
